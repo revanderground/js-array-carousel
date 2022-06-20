@@ -1,0 +1,12 @@
+.carousel-wrapper .carousel-image-container img{
+    display:none;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 5%;
+}
+
+.carousel-wrapper .carousel-image img.active{
+    display:block;
+}
