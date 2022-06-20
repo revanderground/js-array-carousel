@@ -1,5 +1,6 @@
+let myImage = document.getElementById('main-image');
 
-const images = [
+const imageArray = [
     'https://cdn.photographycourse.net/wp-content/uploads/2022/04/Portrait-vs-Landscape-Featured-Image-3.jpg',
     'https://i.natgeofe.com/n/2a832501-483e-422f-985c-0e93757b7d84/6.jpg',
     'https://cdn.photographycourse.net/wp-content/uploads/2014/11/Landscape-Photography-steps.jpg',
@@ -8,5 +9,20 @@ const images = [
     'https://mymodernmet.com/wp/wp-content/uploads/2020/02/Landscape-Photographer-of-the-Year-Sander-Grefte.jpg'
     ];
 
-let image = document.createElement('div');
+
+    function nextChangeImage(){
+        for (let imageIndex = 1; imageIndex < imageArray.length; imageIndex++){
+        myImage.setAttribute("src", imageArray[imageIndex]);
+    }
+   
+    }
+
+  
+
+
+ 
+    
+
+
+
 
