@@ -16,6 +16,12 @@ let imageIndex=1;
         imageIndex++;
         if (imageIndex > 5) {imageIndex=0};
     }
+
+    function previousChangeImage(){
+        myImage.setAttribute("src", imageArray[imageIndex]);
+        imageIndex--;
+        if (imageIndex < 0) {imageIndex=5};
+    }
    
 
   
