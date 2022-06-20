@@ -14,7 +14,7 @@ let imageIndex=1;
     function nextChangeImage(){
         myImage.setAttribute("src", imageArray[imageIndex]);
         imageIndex++;
-        if (imageIndex > 6) {imageIndex=1};
+        if (imageIndex > 5) {imageIndex=0};
     }
    
 
